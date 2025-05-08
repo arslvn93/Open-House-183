@@ -50,14 +50,38 @@ const config = {
   },
   "openHouse": {
     "bundleItems": [
-      { "icon": "fas fa-ruler-combined", "text": "Architectural Floor Plan" },
-      { "icon": "fas fa-star", "text": "Benefit: Completely finished Luxurious turn-key home with finished basement, pool, cabana/bathroom, landscaping" },
-      { "icon": "fas fa-check-circle", "text": "Benefit: New High-End Finishes: Kitchen, Herringbone flooring, SubZero/Wolf/Bosh appliances, 2 new furnaces & AC, interlock driveway" },
-      { "icon": "fas fa-car", "text": "3-Car Garage, 10 ft main ceilings, 9 ft 2nd/basement" },
-      { "icon": "fas fa-camera-retro", "text": "High-Resolution Photo Album and Virtual Tour" },
-      { "icon": "fas fa-film", "text": "Cinematic Property Tour Video" },
-      { "icon": "fas fa-map-location-dot", "text": "Kleinburg Neighbourhood Insights & Recent Sales" },
-      { "icon": "fas fa-key", "text": "Early Access Notifications for New Kleinburg Listings" }
+      {
+        "icon": "fas fa-ruler-combined",
+        "text": "Architectural Floor Plan"
+      },
+      {
+        "icon": "fas fa-star",
+        "text": "Benefit: Completely finished Luxurious turn-key home with finished basement, pool, cabana/bathroom, landscaping"
+      },
+      {
+        "icon": "fas fa-check-circle",
+        "text": "Benefit: New High-End Finishes: Kitchen, Herringbone flooring, SubZero/Wolf/Bosh appliances, 2 new furnaces & AC, interlock driveway"
+      },
+      {
+        "icon": "fas fa-car",
+        "text": "3-Car Garage, 10 ft main ceilings, 9 ft 2nd/basement"
+      },
+      {
+        "icon": "fas fa-camera-retro",
+        "text": "High-Resolution Photo Album and Virtual Tour"
+      },
+      {
+        "icon": "fas fa-film",
+        "text": "Cinematic Property Tour Video"
+      },
+      {
+        "icon": "fas fa-map-location-dot",
+        "text": "Kleinburg Neighbourhood Insights & Recent Sales"
+      },
+      {
+        "icon": "fas fa-key",
+        "text": "Early Access Notifications for New Kleinburg Listings"
+      }
     ]
   },
   "meta": {
@@ -68,16 +92,45 @@ const config = {
   "settings": {
     "adminWebhookUrl": "https://n8n.salesgenius.co/webhook/openhouseupdate",
     "visitorWebhookUrl": "https://n8n.salesgenius.co/webhook/openhouse",
-    "confettiColors": ["#6187a7", "#f0e9d6", "#ffffff", "#83a363", "#d9ac68"]
+    "confettiColors": [
+      "#6187a7",
+      "#f0e9d6",
+      "#ffffff",
+      "#83a363",
+      "#d9ac68"
+    ]
   },
   "modalQuestions": [
     {
       "id": "agent_status",
       "questionText": "Are you currently exploring homes with a real estate agent?",
       "options": [
-        { "value": "committed", "text": "Yes, I'm committed to an agent." },
-        { "value": "not_committed", "text": "No, I'm not committed to an agent." },
-        { "value": "gathering_info", "text": "Just gathering information at this stage." }
+        {
+          "value": "committed",
+          "text": "Yes, I'm committed to an agent."
+        },
+        {
+          "value": "not_committed",
+          "text": "No, I'm not committed to an agent."
+        },
+        {
+          "value": "gathering_info",
+          "text": "Just gathering information at this stage."
+        }
+      ]
+    },
+    {
+      "id": "new_question_1",
+      "questionText": "Whats your sign",
+      "options": [
+        {
+          "value": "new_option_1_0",
+          "text": "picens"
+        },
+        {
+          "value": "new_option_1_1",
+          "text": "bullshit"
+        }
       ]
     }
   ],
