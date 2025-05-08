@@ -1,4 +1,4 @@
-{
+const config = {
   "property": {
     "streetAddress": "11 Glen Abbey Tr",
     "city": "Vaughan",
@@ -86,6 +86,6 @@
     "repoUrl": "https://github.com/arslvn93/Open-House-183",
     "tag": "Open House 11 Glen Abbey Tr",
     "netlifyUrl": "http://Open-House-183.netlify.app",
-    "netlifyId": "980100649"
+    "netlifyId": "cfe3d083-2b3d-4a45-b4d4-0627d35bf013"
   }
-}
+};
